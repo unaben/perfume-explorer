@@ -50,6 +50,7 @@ function useFetchApiData<T>(url: string) {
   };
   useEffect(() => {
     fetchApiData(url);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [url]);
 
   return apiData;
