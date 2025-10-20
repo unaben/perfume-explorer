@@ -1,0 +1,81 @@
+.data-table {
+  display: none;
+  width: 100%;
+  min-width: 600px;
+  border-collapse: collapse;
+}
+
+@media (min-width: 550px) {
+  .data-table {
+    display: table;
+  }
+}
+
+.data-table-header {
+  background-color: #374151;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.75rem;
+}
+.data-table-header th {
+  padding: 1rem;
+  text-align: left;
+}
+
+.data-table-row {
+  border-bottom: 1px solid #e5e7eb;
+  transition: background-color 0.15s;
+}
+.data-table-row:hover {
+  background-color: #f3f4f6;
+}
+.data-table-cell {
+  padding: 1rem;
+  text-align: left;
+}
+.data-code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+}
+
+.data-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+@media (min-width: 550px) {
+  .data-grid {
+    display: none;
+  }
+}
+
+.grid-card {
+  background-color: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.75rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s, box-shadow 0.2s;
+  overflow: hidden;
+}
+.grid-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+.card-header {
+  background-color: #e0e7ff;
+  color: #3730a3;
+  font-weight: 700;
+  padding: 0.75rem 1rem;
+  font-size: 1.125rem;
+  border-bottom: 1px solid #c7d2fe;
+}
+.card-body {
+  padding: 1rem;
+  font-size: 0.875rem;
+}
+.card-body p {
+  margin-bottom: 0.5rem;
+}
