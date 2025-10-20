@@ -1,4 +1,3 @@
-import "./App.css";
 import Display from "./components/MainDisplay/MainDisplay";
 import styles from "./App.module.css";
 
