@@ -1,11 +1,13 @@
 export interface Variant {
   code: string;
   perfumeSize: string;
+  size: string;
 }
 
 export interface PerfumeGroup {
   type: string;
   category: string;
+  size: string;
   variants: Array<Variant>;
 }
 

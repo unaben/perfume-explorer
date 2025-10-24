@@ -8,7 +8,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 10px;
+  padding: 10px 5px 10px 0;
   cursor: pointer;
 
   /* custom radio */
@@ -51,13 +51,16 @@
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
     0 4px 6px -2px rgba(0, 0, 0, 0.05);
   border: 1px solid #e5e7eb;
+  margin-right: 1rem;
 }
+
 .filter-title {
   font-size: 1.25rem;
   font-weight: 600;
   margin-bottom: 0.75rem;
   color: #bd2426;
 }
+
 .filter-options-container {
   display: flex;
   flex-wrap: wrap;
@@ -65,21 +68,18 @@
   margin-bottom: 1rem;
   align-items: center;
   justify-content: left;
+
+  @media (min-width: 1024px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
+
 .hidden-input {
   display: none;
 }
-
-
 .active {
   color: #bd2426;
-}
-
-.is-active {
-  background-color: #bd2426;
-  color: white;
-  border-color: #bd2426;
-  box-shadow: 0 4px 6px -1px rgb(189, 36, 38, 0.5);
 }
 
 .filter-controls {
@@ -88,6 +88,7 @@
   align-items: center;
   margin-top: 0.5rem;
 }
+
 .filter-status {
   font-size: 0.875rem;
   color: #6b7280;
@@ -104,10 +105,12 @@
   border: none;
   cursor: pointer;
 }
+
 .clear-button:not(:disabled):hover {
   background-color: #fee2e2;
   color: #dc2626;
 }
+
 .clear-button:disabled {
   opacity: 0.5;
   cursor: not-allowed;

@@ -1,11 +1,11 @@
 import { useMemo } from "react";
-import useFilteredData from "../../hooks/useFilteredData";
-import PerfumeTableGrid from "../PerfumeTableGrid/PerfumeTableGrid";
-import useQueryStringState from "../../hooks/useQueryStringState";
-import MultiSelectCheckbox from "../MultiSelectCheckbox/MultiSelectCheckbox";
-import type { PerfumeGroup } from "../../types";
 import useFetchApiData from "../../hooks/useFetchApiData";
+import useFilteredData from "../../hooks/useFilteredData";
+import useQueryStringState from "../../hooks/useQueryStringState";
+import type { PerfumeGroup } from "../../types";
 import { getOptions } from "../../utils/getOptions";
+import MultiSelectCheckbox from "../MultiSelectCheckbox/MultiSelectCheckbox";
+import PerfumeTableGrid from "../PerfumeTableGrid/PerfumeTableGrid";
 import styles from "./MainDisplay.module.css";
 
 const Display = () => {
@@ -14,17 +14,20 @@ const Display = () => {
   const [selectedTypes, setSelectedTypes] = useQueryStringState("type");
   const [selectedCategories, setSelectedCategories] =
     useQueryStringState("category");
+  const [selectedSizes, setSelectedSizes] = useQueryStringState("size");
 
   const allTypes = useMemo(() => getOptions(rawData, "type"), [rawData]);
   const allCategories = useMemo(
     () => getOptions(rawData, "category"),
     [rawData]
   );
+  const allSizes = useMemo(() => getOptions(rawData, "size"), [rawData]);
 
   const filteredData = useFilteredData(
     rawData,
     selectedTypes,
-    selectedCategories
+    selectedCategories,
+    selectedSizes
   );
 
   return (
@@ -44,7 +47,7 @@ const Display = () => {
           <div className={styles["filter-group-wrapper"]}>
             <MultiSelectCheckbox
               id="Olfactory Family"
-              title="Filter by Olfactory Family"
+              title="Filter by Olfactory Family Type"
               allOptions={allTypes}
               selectedOptions={selectedTypes}
               setSelectedOptions={setSelectedTypes}
@@ -55,6 +58,13 @@ const Display = () => {
               allOptions={allCategories}
               selectedOptions={selectedCategories}
               setSelectedOptions={setSelectedCategories}
+            />
+            <MultiSelectCheckbox
+              id="Size"
+              title="Filter by Size"
+              allOptions={allSizes}
+              selectedOptions={selectedSizes}
+              setSelectedOptions={setSelectedSizes}
             />
           </div>
         </div>
