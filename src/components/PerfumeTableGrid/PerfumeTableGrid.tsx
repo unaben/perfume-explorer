@@ -19,8 +19,8 @@ const PerfumeTableGrid: React.FC<IPerfumeTableGridProps> = ({ data }) => {
           <tr className={styles["data-table-header"]}>
             <th>Olfactory Family</th>
             <th>Category</th>
-            <th>Code</th>
             <th>Size(ml)</th>
+            <th>Code</th>
           </tr>
         </thead>
         <tbody>
@@ -30,8 +30,14 @@ const PerfumeTableGrid: React.FC<IPerfumeTableGridProps> = ({ data }) => {
                 {formatFamilies(item.olfactoryFamilies)}
               </td>
               <td className={styles["data-table-cell"]}>{item.category}</td>
-              <td className={cn(styles["data-table-cell"], styles["data-code"])}>{item.code}</td>
-              <td className={styles["data-table-cell"]}>{formatFamilies(item.sizes)}</td>
+              <td className={styles["data-table-cell"]}>
+                {formatFamilies(item.sizes)}
+              </td>
+              <td
+                className={cn(styles["data-table-cell"], styles["data-code"])}
+              >
+                {item.code}
+              </td>
             </tr>
           ))}
         </tbody>
@@ -48,12 +54,12 @@ const PerfumeTableGrid: React.FC<IPerfumeTableGridProps> = ({ data }) => {
                 <strong>Category:</strong> {item.category}
               </p>
               <p>
-                <strong>Code:</strong>{" "}
-                <span className={styles["data-code"]}>{item.code}</span>
-              </p>
-              <p>
                 <strong>Size:</strong>{" "}
                 <span className={styles["data-code"]}>{item.sizes}ml</span>
+              </p>
+              <p>
+                <strong>Code:</strong>{" "}
+                <span className={styles["data-code"]}>{item.code}</span>
               </p>
             </div>
           </div>
