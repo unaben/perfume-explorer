@@ -1,8 +1,8 @@
 import { useMemo } from "react";
 import useFilteredData from "../../hooks/useFilteredData";
-import FilterGroup from "../FilterGroup/FilterGroup";
 import PerfumeTableGrid from "../PerfumeTableGrid/PerfumeTableGrid";
 import useQueryStringState from "../../hooks/useQueryStringState";
+import MultiSelectCheckbox from "../MultiSelectCheckbox/MultiSelectCheckbox";
 import type { PerfumeGroup } from "../../types";
 import useFetchApiData from "../../hooks/useFetchApiData";
 import { getOptions } from "../../utils/getOptions";
@@ -42,13 +42,15 @@ const Display = () => {
       <main className={styles["main-layout"]}>
         <div className={styles["filter-sidebar"]}>
           <div className={styles["filter-group-wrapper"]}>
-            <FilterGroup
+            <MultiSelectCheckbox
+              id="Olfactory Family"
               title="Filter by Olfactory Family"
               allOptions={allTypes}
               selectedOptions={selectedTypes}
               setSelectedOptions={setSelectedTypes}
             />
-            <FilterGroup
+            <MultiSelectCheckbox
+              id="Category"
               title="Filter by Category"
               allOptions={allCategories}
               selectedOptions={selectedCategories}
@@ -56,7 +58,7 @@ const Display = () => {
             />
           </div>
         </div>
-        
+
         <div className={styles["main-display-area"]}>
           <div className={styles["data-container"]}>
             <h2 className={styles["data-heading"]}>

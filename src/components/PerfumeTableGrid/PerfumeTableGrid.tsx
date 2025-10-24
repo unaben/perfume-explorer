@@ -1,6 +1,6 @@
 import cn from 'classnames'
+import type { IPerfumeTableGridProps } from "./PerfumeTableGrid.types";
 import styles from './PerfumeTableGrid.module.css';
-import { IPerfumeTableGridProps } from "./PerfumeTableGrid.types";
 
 const PerfumeTableGrid: React.FC<IPerfumeTableGridProps> = ({ data }) => {  
 
@@ -10,7 +10,7 @@ const PerfumeTableGrid: React.FC<IPerfumeTableGridProps> = ({ data }) => {
     );
   }
 
-  const formatFamilies = (families: string[]) => families.join(", ");
+  const formatFamilies = (families: string[]) => families.join(", ");  
 
   return (
     <div className={styles["perfume-display-wrapper"]}>
@@ -20,6 +20,7 @@ const PerfumeTableGrid: React.FC<IPerfumeTableGridProps> = ({ data }) => {
             <th>Olfactory Family</th>
             <th>Category</th>
             <th>Code</th>
+            <th>Size(ml)</th>
           </tr>
         </thead>
         <tbody>
@@ -30,6 +31,7 @@ const PerfumeTableGrid: React.FC<IPerfumeTableGridProps> = ({ data }) => {
               </td>
               <td className={styles["data-table-cell"]}>{item.category}</td>
               <td className={cn(styles["data-table-cell"], styles["data-code"])}>{item.code}</td>
+              <td className={styles["data-table-cell"]}>{formatFamilies(item.sizes)}</td>
             </tr>
           ))}
         </tbody>
@@ -48,6 +50,10 @@ const PerfumeTableGrid: React.FC<IPerfumeTableGridProps> = ({ data }) => {
               <p>
                 <strong>Code:</strong>{" "}
                 <span className={styles["data-code"]}>{item.code}</span>
+              </p>
+              <p>
+                <strong>Size:</strong>{" "}
+                <span className={styles["data-code"]}>{item.sizes}ml</span>
               </p>
             </div>
           </div>

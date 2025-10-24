@@ -12,7 +12,7 @@
 }
 
 .data-table-header {
-  background-color: #374151;
+  background-color: #66483a;
   color: white;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -65,12 +65,12 @@
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
 .card-header {
-  background-color: #e0e7ff;
-  color: #3730a3;
+  background-color: #fcf9ea;
+  color: #bd2426;
   font-weight: 700;
   padding: 0.75rem 1rem;
   font-size: 1.125rem;
-  border-bottom: 1px solid #c7d2fe;
+  border-bottom: 1px solid #bd2426;
 }
 .card-body {
   padding: 1rem;

@@ -1,38 +1,2922 @@
 [
-    { "type": "Aromatic", "category": "For Him", "itemNo": [2, 3, 12, 21, 38, 52, 62, 69, 79, 84, 86, 91, 94, 113, 140, 205, 217, 265, 292] },
-    { "type": "Aromatic", "category": "Luxury", "itemNo": [74, 112, 130] },
-    { "type": "Aromatic", "category": "Unisex", "itemNo": [44, 99, 246] },
-    { "type": "Chypre", "category": "For Her", "itemNo": [39, 80, 85, 89, 93, 115, 119] },
-    { "type": "Chypre", "category": "For Him", "itemNo": [68, 250] },
-    { "type": "Chypre", "category": "Unisex", "itemNo": [110] },
-    { "type": "Citrus", "category": "For Him", "itemNo": [12, 21, 91, 113] },
-    { "type": "Citrus", "category": "Luxury", "itemNo": [112, 125, 137] },
-    { "type": "Citrus", "category": "Unisex", "itemNo": [99, 246] },
-    { "type": "Floral", "category": "For Her", "itemNo": [7, 11, 14, 19, 24, 25, 26, 27, 29, 42, 47, 49, 51, 53, 56, 57, 64, 67, 70, 71, 76, 81, 82, 85, 96, 97, 98, 115, 116, 119, 121, 131, 132, 133, 213, 241, 243, 263, 277, 295] },
-    { "type": "Floral", "category": "For Him", "itemNo": [18, 60, 88, 108, 136] },
-    { "type": "Floral", "category": "Luxury", "itemNo": [109, 111, 118, 123, 126, 139] },
-    { "type": "Floral", "category": "Unisex", "itemNo": [54, 100] },
-    { "type": "Fougere", "category": "For Her", "itemNo": [122] },
-    { "type": "Fougere", "category": "For Him", "itemNo": [3, 16, 84, 86, 94, 140] },
-    { "type": "Fougere", "category": "Luxury", "itemNo": [75] },
-    { "type": "Fruity", "category": "For Her", "itemNo": [7, 11, 19, 39, 42, 80, 82, 89, 93, 263, 295] },
-    { "type": "Fruity", "category": "For Him", "itemNo": [68] },
-    { "type": "Fruity", "category": "Luxury", "itemNo": [123] },
-    { "type": "Fruity", "category": "Unisex", "itemNo": [110] },
-    { "type": "Leather", "category": "Luxury", "itemNo": [106] },
-    { "type": "Leather", "category": "Unisex", "itemNo": [142] },
-    { "type": "Musky", "category": "For Her", "itemNo": [25, 53, 57, 98] },
-    { "type": "Musky", "category": "For Him", "itemNo": [18, 60, 108, 136] },
-    { "type": "Musky", "category": "Unisex", "itemNo": [100, 135] },
-    { "type": "Oriental", "category": "For Her", "itemNo": [6, 10, 14, 23, 26, 27, 28, 40, 47, 51, 55, 56, 64, 67, 70, 81, 90, 97, 116, 120, 121, 122, 131, 132, 133, 145, 213] },
-    { "type": "Oriental", "category": "For Him", "itemNo": [15, 16, 30, 33, 37, 48, 66, 78, 88, 283] },
-    { "type": "Oriental", "category": "Luxury", "itemNo": [75, 101, 102, 109, 111, 117, 118, 124, 126, 127, 128, 129, 134, 139, 141, 144] },
-    { "type": "Oriental", "category": "Unisex", "itemNo": [54, 72, 73, 105, 114] },
-    { "type": "Spicy", "category": "For Her", "itemNo": [6] },
-    { "type": "Spicy", "category": "For Him", "itemNo": [4, 20, 22, 31, 32, 33, 87, 265] },
-    { "type": "Spicy", "category": "Luxury", "itemNo": [117] },
-    { "type": "Woody", "category": "For Her", "itemNo": [10, 25, 53, 57, 98, 243] },
-    { "type": "Woody", "category": "For Him", "itemNo": [1, 4, 15, 18, 20, 22, 30, 31, 32, 37, 38, 48, 52, 60, 61, 62, 66, 78, 87, 108, 136, 217, 292] },
-    { "type": "Woody", "category": "Luxury", "itemNo": [74, 102, 127, 138, 141, 143] },
-    { "type": "Woody", "category": "Unisex", "itemNo": [72, 73, 100, 114] }
-  ]
+  {
+    "type": "Floral",
+    "category": "For Her",
+    "variants": [
+      {
+        "code": "007",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "307",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T007",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "011",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "311",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T011",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "014",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "314",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T014",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "019",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "319",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T019",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "024",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "324",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T024",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "025",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "325",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T025",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "026",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "326",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T026",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "027",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "327",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T027",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "029",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "329",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T029",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "042",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "342",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T042",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "047",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "347",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T047",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "049",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "349",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T049",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "051",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "351",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T051",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "053",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "353",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T053",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "056",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "356",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T056",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "057",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "357",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T057",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "064",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "364",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T064",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "067",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "367",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T067",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "070",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "370",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T070",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "071",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "371",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T071",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "076",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "376",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T076",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "081",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "381",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T081",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "082",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "382",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T082",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "085",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "385",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T085",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "096",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "396",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T096",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "097",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "397",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T097",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "098",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "398",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T098",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "115",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3115",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T115",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "116",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3116",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T116",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "119",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3119",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T119",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "121",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3121",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T121",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "131",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3131",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T131",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "132",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3132",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T132",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "133",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3133",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T133",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "213",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3213",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T213",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "241",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3241",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T241",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "243",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3243",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T243",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "263",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3263",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T263",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "277",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3277",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T277",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "295",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3295",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T295",
+        "perfumeSize": "15"
+      }
+    ]
+  },
+  {
+    "type": "Floral",
+    "category": "For Him",
+    "variants": [
+      {
+        "code": "018",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "318",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T018",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "060",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "360",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T060",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "088",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "388",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T088",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "108",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3108",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T108",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "136",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3136",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T136",
+        "perfumeSize": "15"
+      }
+    ]
+  },
+  {
+    "type": "Floral",
+    "category": "Luxury",
+    "variants": [
+      {
+        "code": "109",
+        "perfumeSize": "50"
+      },
+      {
+        "code": "T109",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "111",
+        "perfumeSize": "50"
+      },
+      {
+        "code": "T111",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "118",
+        "perfumeSize": "50"
+      },
+      {
+        "code": "T118",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "123",
+        "perfumeSize": "50"
+      },
+      {
+        "code": "T123",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "126",
+        "perfumeSize": "50"
+      },
+      {
+        "code": "T126",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "139",
+        "perfumeSize": "50"
+      },
+      {
+        "code": "T139",
+        "perfumeSize": "15"
+      }
+    ]
+  },
+  {
+    "type": "Floral",
+    "category": "Unisex",
+    "variants": [
+      {
+        "code": "054",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "354",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T054",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "100",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3100",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T100",
+        "perfumeSize": "15"
+      }
+    ]
+  },
+  {
+    "type": "Oriental",
+    "category": "For Her",
+    "variants": [
+      {
+        "code": "006",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "305",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T006",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "010",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "310",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T010",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "014",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "314",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T014",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "023",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "323",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T023",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "026",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "326",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T026",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "027",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "327",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T027",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "028",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "328",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T028",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "040",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "340",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T040",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "047",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "347",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T047",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "051",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "351",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T051",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "055",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "355",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T055",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "056",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "356",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T056",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "064",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "364",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T064",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "067",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "367",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T067",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "070",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "370",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T070",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "081",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "381",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T081",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "090",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "390",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T090",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "097",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "397",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T097",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "116",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3116",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T116",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "120",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3120",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T120",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "121",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3121",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T121",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "122",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3122",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T122",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "131",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3131",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T131",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "132",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3132",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T132",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "133",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3133",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T133",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "145",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3145",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T145",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "213",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3213",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T213",
+        "perfumeSize": "15"
+      }
+    ]
+  },
+  {
+    "type": "Oriental",
+    "category": "For Him",
+    "variants": [
+      {
+        "code": "015",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "315",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T015",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "016",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "316",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T016",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "030",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "330",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T030",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "033",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "333",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T033",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "037",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "337",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T037",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "048",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "348",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T048",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "066",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "366",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T066",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "078",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "378",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T078",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "088",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "388",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T088",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "283",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3283",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T283",
+        "perfumeSize": "15"
+      }
+    ]
+  },
+  {
+    "type": "Oriental",
+    "category": "Luxury",
+    "variants": [
+      {
+        "code": "075",
+        "perfumeSize": "50"
+      },
+      {
+        "code": "T075",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "101",
+        "perfumeSize": "50"
+      },
+      {
+        "code": "T101",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "102",
+        "perfumeSize": "50"
+      },
+      {
+        "code": "T102",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "109",
+        "perfumeSize": "50"
+      },
+      {
+        "code": "T109",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "111",
+        "perfumeSize": "50"
+      },
+      {
+        "code": "T111",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "117",
+        "perfumeSize": "50"
+      },
+      {
+        "code": "T117",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "118",
+        "perfumeSize": "50"
+      },
+      {
+        "code": "T118",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "124",
+        "perfumeSize": "50"
+      },
+      {
+        "code": "T124",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "126",
+        "perfumeSize": "50"
+      },
+      {
+        "code": "T126",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "127",
+        "perfumeSize": "50"
+      },
+      {
+        "code": "T127",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "128",
+        "perfumeSize": "50"
+      },
+      {
+        "code": "T128",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "129",
+        "perfumeSize": "50"
+      },
+      {
+        "code": "T129",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "134",
+        "perfumeSize": "50"
+      },
+      {
+        "code": "T134",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "139",
+        "perfumeSize": "50"
+      },
+      {
+        "code": "T139",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "141",
+        "perfumeSize": "50"
+      },
+      {
+        "code": "T141",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "144",
+        "perfumeSize": "50"
+      },
+      {
+        "code": "T144",
+        "perfumeSize": "15"
+      }
+    ]
+  },
+  {
+    "type": "Oriental",
+    "category": "Unisex",
+    "variants": [
+      {
+        "code": "054",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "354",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T054",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "072",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "372",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T072",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "073",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "373",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T073",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "105",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3105",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T105",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "114",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3114",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T114",
+        "perfumeSize": "15"
+      }
+    ]
+  },
+  {
+    "type": "Chypre",
+    "category": "For Her",
+    "variants": [
+      {
+        "code": "039",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "339",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T039",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "080",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "380",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T080",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "085",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "385",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T085",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "089",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "389",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T089",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "093",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "393",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T093",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "115",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3115",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T115",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "119",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3119",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T119",
+        "perfumeSize": "15"
+      }
+    ]
+  },
+  {
+    "type": "Chypre",
+    "category": "For Him",
+    "variants": [
+      {
+        "code": "068",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "368",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T068",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "250",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3250",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T250",
+        "perfumeSize": "15"
+      }
+    ]
+  },
+  {
+    "type": "Chypre",
+    "category": "Unisex",
+    "variants": [
+      {
+        "code": "110",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3110",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T110",
+        "perfumeSize": "15"
+      }
+    ]
+  },
+  {
+    "type": "Woody",
+    "category": "For Her",
+    "variants": [
+      {
+        "code": "010",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "310",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T010",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "025",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "325",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T025",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "053",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "353",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T053",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "057",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "357",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T057",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "098",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "398",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T098",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "243",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3243",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T243",
+        "perfumeSize": "15"
+      }
+    ]
+  },
+  {
+    "type": "Woody",
+    "category": "For Him",
+    "variants": [
+      {
+        "code": "001",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "301",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T001",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "004",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "304",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T004",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "015",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "315",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T015",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "018",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "318",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T018",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "020",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "320",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T020",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "022",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "322",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T022",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "030",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "330",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T030",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "031",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "331",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T031",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "032",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "332",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T032",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "037",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "337",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T037",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "038",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "338",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T038",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "048",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "348",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T048",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "052",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "352",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T052",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "060",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "360",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T060",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "061",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "361",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T061",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "062",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "362",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T062",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "066",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "366",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T066",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "078",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "378",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T078",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "087",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "387",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T087",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "108",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3108",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T108",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "136",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3136",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T136",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "217",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3217",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T217",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "292",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3292",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T292",
+        "perfumeSize": "15"
+      }
+    ]
+  },
+  {
+    "type": "Woody",
+    "category": "Luxury",
+    "variants": [
+      {
+        "code": "074",
+        "perfumeSize": "50"
+      },
+      {
+        "code": "T074",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "102",
+        "perfumeSize": "50"
+      },
+      {
+        "code": "T102",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "127",
+        "perfumeSize": "50"
+      },
+      {
+        "code": "T127",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "138",
+        "perfumeSize": "50"
+      },
+      {
+        "code": "T138",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "141",
+        "perfumeSize": "50"
+      },
+      {
+        "code": "T141",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "143",
+        "perfumeSize": "50"
+      },
+      {
+        "code": "T143",
+        "perfumeSize": "15"
+      }
+    ]
+  },
+  {
+    "type": "Woody",
+    "category": "Unisex",
+    "variants": [
+      {
+        "code": "072",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "372",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T072",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "073",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "373",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T073",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "100",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3100",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T100",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "114",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3114",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T114",
+        "perfumeSize": "15"
+      }
+    ]
+  },
+  {
+    "type": "Spicy",
+    "category": "For Her",
+    "variants": [
+      {
+        "code": "006",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "305",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T006",
+        "perfumeSize": "15"
+      }
+    ]
+  },
+  {
+    "type": "Spicy",
+    "category": "For Him",
+    "variants": [
+      {
+        "code": "004",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "304",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T004",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "020",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "320",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T020",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "022",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "322",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T022",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "031",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "331",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T031",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "032",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "332",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T032",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "033",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "333",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T033",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "087",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "387",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T087",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "265",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3265",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T265",
+        "perfumeSize": "15"
+      }
+    ]
+  },
+  {
+    "type": "Spicy",
+    "category": "Luxury",
+    "variants": [
+      {
+        "code": "117",
+        "perfumeSize": "50"
+      },
+      {
+        "code": "T117",
+        "perfumeSize": "15"
+      }
+    ]
+  },
+  {
+    "type": "Fruity",
+    "category": "For Her",
+    "variants": [
+      {
+        "code": "007",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "307",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T007",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "011",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "311",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T011",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "019",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "319",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T019",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "039",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "339",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T039",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "042",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "342",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T042",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "080",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "380",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T080",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "082",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "382",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T082",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "089",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "389",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T089",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "093",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "393",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T093",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "263",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3263",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T263",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "295",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3295",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T295",
+        "perfumeSize": "15"
+      }
+    ]
+  },
+  {
+    "type": "Fruity",
+    "category": "For Him",
+    "variants": [
+      {
+        "code": "068",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "368",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T068",
+        "perfumeSize": "15"
+      }
+    ]
+  },
+  {
+    "type": "Fruity",
+    "category": "Luxury",
+    "variants": [
+      {
+        "code": "123",
+        "perfumeSize": "50"
+      },
+      {
+        "code": "T123",
+        "perfumeSize": "15"
+      }
+    ]
+  },
+  {
+    "type": "Fruity",
+    "category": "Unisex",
+    "variants": [
+      {
+        "code": "110",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3110",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T110",
+        "perfumeSize": "15"
+      }
+    ]
+  },
+  {
+    "type": "Musky",
+    "category": "For Her",
+    "variants": [
+      {
+        "code": "025",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "325",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T025",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "053",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "353",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T053",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "057",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "357",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T057",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "098",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "398",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T098",
+        "perfumeSize": "15"
+      }
+    ]
+  },
+  {
+    "type": "Musky",
+    "category": "For Him",
+    "variants": [
+      {
+        "code": "018",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "318",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T018",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "060",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "360",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T060",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "108",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3108",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T108",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "136",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3136",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T136",
+        "perfumeSize": "15"
+      }
+    ]
+  },
+  {
+    "type": "Musky",
+    "category": "Unisex",
+    "variants": [
+      {
+        "code": "100",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3100",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T100",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "135",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3135",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T135",
+        "perfumeSize": "15"
+      }
+    ]
+  },
+  {
+    "type": "Fougere",
+    "category": "For Her",
+    "variants": [
+      {
+        "code": "122",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3122",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T122",
+        "perfumeSize": "15"
+      }
+    ]
+  },
+  {
+    "type": "Fougere",
+    "category": "For Him",
+    "variants": [
+      {
+        "code": "003",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "303",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T003",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "016",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "316",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T016",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "084",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "384",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T084",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "086",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "386",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T086",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "094",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "394",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T094",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "140",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3140",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T140",
+        "perfumeSize": "15"
+      }
+    ]
+  },
+  {
+    "type": "Fougere",
+    "category": "Luxury",
+    "variants": [
+      {
+        "code": "075",
+        "perfumeSize": "50"
+      },
+      {
+        "code": "T075",
+        "perfumeSize": "15"
+      }
+    ]
+  },
+  {
+    "type": "Citrus",
+    "category": "For Him",
+    "variants": [
+      {
+        "code": "012",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "312",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T012",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "021",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "321",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T021",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "091",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "391",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T091",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "113",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3113",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T113",
+        "perfumeSize": "15"
+      }
+    ]
+  },
+  {
+    "type": "Citrus",
+    "category": "Luxury",
+    "variants": [
+      {
+        "code": "112",
+        "perfumeSize": "50"
+      },
+      {
+        "code": "T112",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "125",
+        "perfumeSize": "50"
+      },
+      {
+        "code": "T125",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "137",
+        "perfumeSize": "50"
+      },
+      {
+        "code": "T137",
+        "perfumeSize": "15"
+      }
+    ]
+  },
+  {
+    "type": "Citrus",
+    "category": "Unisex",
+    "variants": [
+      {
+        "code": "099",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "399",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T099",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "246",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3146",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T246",
+        "perfumeSize": "15"
+      }
+    ]
+  },
+  {
+    "type": "Aromatic",
+    "category": "For Him",
+    "variants": [
+      {
+        "code": "002",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "302",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T002",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "003",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "303",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T003",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "012",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "312",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T012",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "021",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "321",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T021",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "038",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "338",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T038",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "052",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "352",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T052",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "062",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "362",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T062",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "069",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "369",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T069",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "079",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "379",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T079",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "084",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "384",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T084",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "086",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "386",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T086",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "091",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "391",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T091",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "094",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "394",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T094",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "113",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3113",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T113",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "140",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3140",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T140",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "205",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3205",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T205",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "217",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3217",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T217",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "265",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3265",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T265",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "292",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3292",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T292",
+        "perfumeSize": "15"
+      }
+    ]
+  },
+  {
+    "type": "Aromatic",
+    "category": "Luxury",
+    "variants": [
+      {
+        "code": "074",
+        "perfumeSize": "50"
+      },
+      {
+        "code": "T074",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "112",
+        "perfumeSize": "50"
+      },
+      {
+        "code": "T112",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "130",
+        "perfumeSize": "50"
+      },
+      {
+        "code": "T130",
+        "perfumeSize": "15"
+      }
+    ]
+  },
+  {
+    "type": "Aromatic",
+    "category": "Unisex",
+    "variants": [
+      {
+        "code": "044",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "344",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T044",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "099",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "399",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T099",
+        "perfumeSize": "15"
+      },
+      {
+        "code": "246",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3146",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T246",
+        "perfumeSize": "15"
+      }
+    ]
+  },
+  {
+    "type": "Leather",
+    "category": "Luxury",
+    "variants": [
+      {
+        "code": "106",
+        "perfumeSize": "50"
+      },
+      {
+        "code": "T106",
+        "perfumeSize": "15"
+      }
+    ]
+  },
+  {
+    "type": "Leather",
+    "category": "Unisex",
+    "variants": [
+      {
+        "code": "142",
+        "perfumeSize": "70"
+      },
+      {
+        "code": "3142",
+        "perfumeSize": "30"
+      },
+      {
+        "code": "T142",
+        "perfumeSize": "15"
+      }
+    ]
+  }
+]

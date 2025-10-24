@@ -1,9 +1,10 @@
 import { useCallback } from "react";
 import cn from "classnames";
-import { IFilterGroupProps } from "./FilterGroup.types";
-import styles from "./FilterGroup.module.css";
+import type { IMultiSelectCheckboxProps } from "./MultiSelectCheckbox.types";
+import styles from "./MultiSelectCheckbox.module.css";
 
-const FilterGroup: React.FC<IFilterGroupProps> = (props) => {
+
+const MultiSelectCheckbox = (props: IMultiSelectCheckboxProps) => {
   const { title, allOptions, selectedOptions, setSelectedOptions } = props;
 
   const handleCheckboxChange = useCallback(
@@ -22,28 +23,35 @@ const FilterGroup: React.FC<IFilterGroupProps> = (props) => {
   const handleClear = useCallback(() => {
     setSelectedOptions([]);
   }, [setSelectedOptions]);
-
   return (
     <div className={styles["filter-panel"]}>
-      <h3 className={styles["filter-title"]}>{title}</h3>
+      {title && <h3 className={styles["filter-title"]}>{title}</h3>}
       <div className={styles["filter-options-container"]}>
-        {allOptions.map((option) => (
-          <label
-            key={option}
-            className={cn(styles['filter-label'], {
-              [styles['is-active']]: selectedOptions.includes(option),
-            })}
-          >
-            <input
-              type="checkbox"
-              checked={selectedOptions.includes(option)}
-              onChange={() => handleCheckboxChange(option)}
-              className={styles["hidden-input"]}
-            />
-            {option}
-          </label>
-        ))}
+        {allOptions?.map((option) => {
+          return (
+            <label key={option} className={styles.radio}>
+              <input
+                className={styles.input}
+                type="checkbox"
+                checked={selectedOptions.includes(option)}
+                onChange={() => handleCheckboxChange(option)}
+              />
+              <span role="presentation" className={styles.box}></span>
+              {option && (
+                <p
+                  className={cn(styles.label, {
+                    [styles.active]: selectedOptions.includes(option),
+                  })}
+                >
+                  {" "}
+                  {option}
+                </p>
+              )}
+            </label>
+          );
+        })}
       </div>
+
       <div className={styles["filter-controls"]}>
         <p className={styles["filter-status"]}>
           {selectedOptions.length === 0
@@ -61,5 +69,4 @@ const FilterGroup: React.FC<IFilterGroupProps> = (props) => {
     </div>
   );
 };
-
-export default FilterGroup;
+export default MultiSelectCheckbox;

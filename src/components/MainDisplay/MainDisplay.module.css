@@ -3,7 +3,7 @@
 .app-container {
   padding: 1rem; 
   min-height: 100vh;
-  background-color: #f9fafb; 
+  background-color: #fcf9ea;
   font-family: "Inter", sans-serif;
 }
 
@@ -21,7 +21,7 @@
   font-size: 1.875rem; 
   font-weight: 800; 
   color: #1f2937; 
-  border-bottom: 4px solid #6366f1;
+  border-bottom: 4px solid #bd2426;
   padding-bottom: 0.5rem;
 }
 .app-header-subtitle {
