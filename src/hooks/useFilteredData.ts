@@ -13,31 +13,29 @@ const useFilteredData = (
   return useMemo(() => {
     if (rawData.length === 0) return [];
 
-    const isTypeFilterActive = selectedTypes.length > 0;
-    const isCategoryFilterActive = selectedCategories.length > 0;
-    const isSizeFilterActive = selectedSize.length > 0;
+    const isTypeSelected = selectedTypes.length > 0;
+    const isCategorySelected = selectedCategories.length > 0;
+    const isSizeSelected = selectedSize.length > 0;
 
-    // Aggregate data by code and category
     const aggregatedObject = rawData
       .filter((group) => {
-        const passesTypeFilter = isTypeFilterActive
+        const matchedSelectedType = isTypeSelected
           ? selectedTypes.includes(group.type)
           : true;
 
-        const passesCategoryFilter = isCategoryFilterActive
+        const matchedSelectedCategory = isCategorySelected
           ? selectedCategories.includes(group.category)
           : true;
 
-        return passesTypeFilter && passesCategoryFilter;
+        return matchedSelectedType && matchedSelectedCategory;
       })
       .reduce((acc, group) => {
         group.variants.forEach((variant) => {
-          // Apply size filter at the variant level
           if (
-            isSizeFilterActive &&
+            isSizeSelected &&
             !selectedSize.includes(variant.perfumeSize)
           ) {
-            return; // Skip this variant if it doesn't match selected sizes
+            return;
           }
 
           const key = `${variant.code}|${group.category}`;
@@ -50,6 +48,7 @@ const useFilteredData = (
               sizes: new Set<string>(),
             };
           }
+
           acc[key].olfactoryFamilies.add(group.type);
           acc[key].sizes.add(variant.perfumeSize);
         });
