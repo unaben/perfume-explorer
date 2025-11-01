@@ -1,4 +1,6 @@
 
 .container {
   width: 100%;
+  background-color: #fcf9ea;
+  min-height: 100vh;
 }

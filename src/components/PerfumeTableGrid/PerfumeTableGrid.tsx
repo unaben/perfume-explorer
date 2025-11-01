@@ -1,8 +1,9 @@
-import cn from 'classnames'
+import cn from "classnames";
 import type { IPerfumeTableGridProps } from "./PerfumeTableGrid.types";
-import styles from './PerfumeTableGrid.module.css';
+import styles from "./PerfumeTableGrid.module.css";
 
-const PerfumeTableGrid: React.FC<IPerfumeTableGridProps> = ({ data }) => {  
+const PerfumeTableGrid: React.FC<IPerfumeTableGridProps> = (props) => {
+  const { data, setToggleScreen, setPerfumeCode } = props;
 
   if (data.length === 0) {
     return (
@@ -10,7 +11,7 @@ const PerfumeTableGrid: React.FC<IPerfumeTableGridProps> = ({ data }) => {
     );
   }
 
-  const formatFamilies = (families: string[]) => families.join(", ");  
+  const formatFamilies = (families: string[]) => families.join(", ");
 
   return (
     <div className={styles["perfume-display-wrapper"]}>
@@ -21,6 +22,7 @@ const PerfumeTableGrid: React.FC<IPerfumeTableGridProps> = ({ data }) => {
             <th>Category</th>
             <th>Size(ml)</th>
             <th>Code</th>
+            <th>Perfume Details</th>
           </tr>
         </thead>
         <tbody>
@@ -37,6 +39,19 @@ const PerfumeTableGrid: React.FC<IPerfumeTableGridProps> = ({ data }) => {
                 className={cn(styles["data-table-cell"], styles["data-code"])}
               >
                 {item.code}
+              </td>
+              <td
+                className={cn(styles["data-table-cell"], styles["data-code"])}
+              >
+                <button
+                  className={styles.btn}
+                  onClick={() => {
+                    setPerfumeCode(item.code);
+                    setToggleScreen("details");
+                  }}
+                >
+                  Details
+                </button>
               </td>
             </tr>
           ))}
@@ -61,6 +76,17 @@ const PerfumeTableGrid: React.FC<IPerfumeTableGridProps> = ({ data }) => {
                 <strong>Code:</strong>{" "}
                 <span className={styles["data-code"]}>{item.code}</span>
               </p>
+              <div>
+                <button
+                  className={styles.btn}
+                  onClick={() => {
+                    setPerfumeCode(item.code);
+                    setToggleScreen("details");
+                  }}
+                >
+                  Details
+                </button>
+              </div>
             </div>
           </div>
         ))}
