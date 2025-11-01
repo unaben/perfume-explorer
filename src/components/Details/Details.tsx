@@ -19,11 +19,13 @@ const Details = (props: IDetailsProps) => {
           Return to Product table
         </button>
       </div>
-      <div className={styles.imageContent}>
+      <div
+        className={cn(styles.imageContent, {
+          [styles.placeholderImage]: imageType === "placeholder",
+        })}
+      >
         <img
-          className={cn(styles.img, {
-            [styles.placeholderImage]: imageType === "placeholder",
-          })}
+          className={styles.img}
           src={imageUrl}
           alt={`image-code-${perfumeCode}`}
         />
