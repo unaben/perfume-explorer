@@ -1,6 +1,7 @@
 import cn from "classnames";
 import type { IPerfumeTableGridProps } from "./PerfumeTableGrid.types";
 import styles from "./PerfumeTableGrid.module.css";
+import { formatFamilies } from "../../utils/formatFamilies";
 
 const PerfumeTableGrid: React.FC<IPerfumeTableGridProps> = (props) => {
   const { data, setToggleScreen, setPerfumeCode } = props;
@@ -9,9 +10,7 @@ const PerfumeTableGrid: React.FC<IPerfumeTableGridProps> = (props) => {
     return (
       <div className="no-results">No perfumes match the selected criteria.</div>
     );
-  }
-
-  const formatFamilies = (families: string[]) => families.join(", ");
+  } 
 
   return (
     <div className={styles["perfume-display-wrapper"]}>

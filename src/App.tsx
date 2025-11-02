@@ -1,10 +1,10 @@
-import Display from "./components/MainDisplay/MainDisplay";
+import MainDisplay from "./components/MainDisplay/MainDisplay";
 import styles from "./App.module.css";
 
 function App() {
   return (
     <div className={styles.container}>
-      <Display />
+      <MainDisplay />
     </div>
   );
 }

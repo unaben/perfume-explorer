@@ -11,14 +11,14 @@ const Details = (props: IDetailsProps) => {
 
   return (
     <div className={styles.container}>
-      <div className={styles.btnContent}>
+      {/* <div className={styles.btnContent}>
         <button
           className={styles.btn}
           onClick={() => setToggleScreen("display")}
         >
           Return to Product table
         </button>
-      </div>
+      </div> */}
       <div
         className={cn(styles.imageContent, {
           [styles.placeholderImage]: imageType === "placeholder",

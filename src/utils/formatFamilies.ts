@@ -1,0 +1,1 @@
+export const formatFamilies = (families: string[]) => families.join(", ");

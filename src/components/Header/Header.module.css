@@ -1,0 +1,19 @@
+/* src/components/Layout/Header.module.css */
+.appHeader {
+    margin-bottom: 2rem;
+  }
+  
+  .appTitle {
+    font-size: 1.875rem;
+    font-weight: 800;
+    color: #111827;
+    border-bottom: 4px solid #bd2426;
+    padding-bottom: 0.5rem;
+    margin: 0 0 0.5rem 0;
+  }
+  
+  .appSubtitle {
+    margin: 1.5rem 0 0 0;
+    color: #4b5563;
+    font-size: 1rem;
+  }

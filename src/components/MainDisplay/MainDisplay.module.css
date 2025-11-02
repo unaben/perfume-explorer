@@ -1,80 +1,94 @@
-.app-container {
+.appContainer {
   padding: 1rem;
   min-height: 100vh;
   background-color: #fcf9ea;
-  font-family: "Inter", sans-serif;
+  width: 100%;
 }
 
 @media (min-width: 640px) {
-  .app-container {
+  .appContainer {
     padding: 2rem;
+    width: 100%;
   }
 }
 
-.app-header {
-  margin-bottom: 2rem;
-}
-
-.app-header-title {
-  font-size: 1.875rem;
-  font-weight: 800;
-  color: #1f2937;
-  border-bottom: 4px solid #bd2426;
-  padding-bottom: 0.5rem;
-}
-
-.app-header-subtitle {
-  margin-top: 0.5rem;
-  color: #4b5563;
-}
-
-.main-layout {
-  display: flex;
-  flex-direction: column;
+/* Main Layout */
+.mainLayout {
+  display: grid;
   gap: 2rem;
+  align-items: flex-start;
 
   @media (min-width: 1024px) {
-    display: grid;
-    grid-template-columns: 280px 1fr;
-    align-items: flex-start;
-    gap: 2rem;
-    margin-top: 0;
+    grid-template-columns: 320px 1fr;
   }
 }
 
-.filter-sidebar {
-  @media (min-width: 1024px) {
-    position: sticky;
-    top: 2rem;
-    align-self: flex-start;
-    max-height: calc(100vh - 4rem);
+@media (min-width: 1024px) {
+   .filterSidebar {
+    width: 320px;
+    max-height: calc(100vh - 13rem);
     overflow-y: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .filterSidebar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .mainDisplayArea {
+    grid-column: 2;
+    margin-left: 0;
   }
 }
 
-.filter-group-wrapper {
+@media (min-width: 1280px) {
+  .filterSidebar {
+    left: calc((100vw - 1280px) / 2 + 2rem);
+  }
+}
+
+/* filter sidebar inner */
+.filterSidebarInner {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
 }
 
-.main-display-area {
-  position: relative;
-}
-
-.data-container {
+/* Table Card */
+.tableCard {
   background-color: white;
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
-    0 8px 10px -6px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
   border-radius: 0.75rem;
-  padding: 0;
-  /* overflow-x: auto; */
-  position: relative;
+  overflow: hidden;
 }
 
-.data-heading {
+.stickyHeader {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.tableHeaderTitle {
   padding: 1rem;
   font-size: 1.125rem;
   font-weight: 600;
   color: #374151;
+  background-color: white;
+  border-bottom: 1px solid #e5e7eb;
+  margin: 0;
+}
+
+.tableContainer {
+  max-height: calc(100vh - 200px);
+  overflow-y: auto;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.tableContainer::-webkit-scrollbar {
+  display: none;
 }

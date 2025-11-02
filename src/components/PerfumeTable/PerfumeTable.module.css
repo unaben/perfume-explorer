@@ -1,0 +1,59 @@
+.perfumeTable {
+  display: none;
+  min-width: 600px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+@media (min-width: 650px) {
+  .perfumeTable {
+    display: table;
+  }
+
+  .perfumeTable thead th {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #66483a;
+    color: whitesmoke;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 0.75rem;
+    padding: 1rem;
+    text-align: left;
+    vertical-align: top;
+    border-bottom: 2px solid #1f2937;
+  }
+
+  .perfumeTable td {
+    padding: 1rem;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  .perfumeTable tbody tr {
+    border-bottom: 1px solid #f3f4f6;
+    transition: background-color 0.15s;
+  }
+
+  .perfumeTable tbody tr:hover {
+    background-color: #f3f4f6;
+  }
+}
+
+.detailsButton {
+  background-color: #66483a;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.detailsButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px #5a4338;
+}

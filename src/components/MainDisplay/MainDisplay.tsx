@@ -1,20 +1,16 @@
-import { useMemo, useState } from "react";
+import { useMemo } from "react";
 import useFetchApiData from "../../hooks/useFetchApiData";
 import useFilteredData from "../../hooks/useFilteredData";
 import useQueryStringState from "../../hooks/useQueryStringState";
-import type { PerfumeGroup } from "../../types";
+import { PerfumeGroup } from "../../types";
 import { getOptions } from "../../utils/getOptions";
+import Header from "../Header/Header";
 import MultiSelectCheckbox from "../MultiSelectCheckbox/MultiSelectCheckbox";
-import PerfumeTableGrid from "../PerfumeTableGrid/PerfumeTableGrid";
+import PerfumeDisplay from "../PerfumeDisplay/PerfumeDisplay";
 import styles from "./MainDisplay.module.css";
-import Details from "../Details/Details";
 
-const Display = () => {
+const MainDisplay = () => {
   const { data: rawData } = useFetchApiData<PerfumeGroup>("/data.json");
-  const [toggleScreen, setToggleScreen] = useState<"display" | "details">(
-    "display"
-  );
-  const [perfumeCode, setPerfumeCode] = useState<string>(""); 
   const [selectedTypes, setSelectedTypes] = useQueryStringState("type");
   const [selectedCategories, setSelectedCategories] =
     useQueryStringState("category");
@@ -35,65 +31,49 @@ const Display = () => {
   );
 
   return (
-    <div className={styles["app-container"]}>
-      <header className={styles["app-header"]}>
-        <h1 className={styles["app-header-title"]}>
-          Perfume Olfactory Explorer
-        </h1>
-        {toggleScreen === "display" && (
-          <p className={styles["app-header-subtitle"]}>
-            Filter the catalog by Olfactory Family and Category. Filters are
-            saved to the URL.
-          </p>
-        )}
-      </header>
-
-      {toggleScreen === "display" && (
-        <main className={styles["main-layout"]}>
-          <div className={styles["filter-sidebar"]}>
-            <div className={styles["filter-group-wrapper"]}>
-              <MultiSelectCheckbox
-                id="Olfactory Family"
-                title="Filter by Olfactory Family Type"
-                allOptions={allTypes}
-                selectedOptions={selectedTypes}
-                setSelectedOptions={setSelectedTypes}
-              />
-              <MultiSelectCheckbox
-                id="Category"
-                title="Filter by Category"
-                allOptions={allCategories}
-                selectedOptions={selectedCategories}
-                setSelectedOptions={setSelectedCategories}
-              />
-              <MultiSelectCheckbox
-                id="Size"
-                title="Filter by Size"
-                allOptions={allSizes}
-                selectedOptions={selectedSizes}
-                setSelectedOptions={setSelectedSizes}
-              />
-            </div>
+    <div className={styles.appContainer}>
+      <Header />
+      <main className={styles.mainLayout}>
+        <aside className={styles.filterSidebar}>
+          <div className={styles.filterSidebarInner}>
+            <MultiSelectCheckbox
+              id="Olfactory Family"
+              title="Filter by Olfactory Family"
+              allOptions={allTypes}
+              selectedOptions={selectedTypes}
+              setSelectedOptions={setSelectedTypes}
+            />
+            <MultiSelectCheckbox
+              id="Category"
+              title="Filter by Category"
+              allOptions={allCategories}
+              selectedOptions={selectedCategories}
+              setSelectedOptions={setSelectedCategories}
+            />
+            <MultiSelectCheckbox
+              id="Size"
+              title="Filter by Size"
+              allOptions={allSizes}
+              selectedOptions={selectedSizes}
+              setSelectedOptions={setSelectedSizes}
+            />
           </div>
-          <div className={styles["main-display-area"]}>
-            <div className={styles["data-container"]}>
-              <h2 className={styles["data-heading"]}>
+        </aside>
+        <section className={styles.mainDisplayArea}>
+          <div className={styles.tableCard}>
+            <div className={styles.stickyHeader}>
+              <h2 className={styles.tableHeaderTitle}>
                 {filteredData.length} Matching Perfume Codes
               </h2>
-              <PerfumeTableGrid
-                data={filteredData}
-                setToggleScreen={setToggleScreen}
-                setPerfumeCode={setPerfumeCode}
-              />
+            </div>
+            <div className={styles.tableContainer}>
+              <PerfumeDisplay data={filteredData} />
             </div>
           </div>
-        </main>
-      )}
-      {toggleScreen === "details" && (
-        <Details setToggleScreen={setToggleScreen} perfumeCode={perfumeCode} />
-      )}
+        </section>
+      </main>
     </div>
   );
 };
 
-export default Display;
+export default MainDisplay;
