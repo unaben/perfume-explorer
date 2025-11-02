@@ -4,7 +4,7 @@ import perfumeImageMap from "../../image";
 import styles from "./Details.module.css";
 
 const Details = (props: IDetailsProps) => {
-  const { setToggleScreen, perfumeCode } = props;
+  const {  perfumeCode } = props;
 
   const imageUrl = perfumeImageMap[perfumeCode as string]?.imageUrl;
   const imageType = perfumeImageMap[perfumeCode as string]?.imageType;
