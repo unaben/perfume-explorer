@@ -1,22 +1,21 @@
 import { PerfumeGroup } from "../types";
 
 export const getOptions = (
-  data: PerfumeGroup[],
+  data: PerfumeGroup[] | null,
   key: "type" | "category" | "size"
 ): string[] => {
-  if (data.length === 0) return [];
+  if (!data || data.length === 0) return [];
 
   if (key === "size") {
-    const allSizes = new Set<string>();
+    const sizes = data.flatMap(group =>
+      group.variants.map(variant => variant.perfumeSize)
+    );
 
-    data.forEach((group) => {
-      group.variants.forEach((variant) => {
-        allSizes.add(variant.perfumeSize);
-      });
-    });
-
-    return Array.from(allSizes).sort((a, b) => Number(a) - Number(b));
+    return Array.from(new Set(sizes)).sort(
+      (a, b) => Number(a) - Number(b)
+    );
   }
 
-  return Array.from(new Set(data.map((d) => d[key]))).sort();
+  const values = data.map(d => d[key]);
+  return Array.from(new Set(values)).sort();
 };

@@ -2,16 +2,18 @@ import { useMemo } from "react";
 import type { AggregatedItem, DisplayItem, PerfumeGroup } from "../types";
 
 /**
- * Custom hook to process, filter, and aggregate the data based on types, categories, and sizes.
+ * Custom hook to process, filter,
+ * and aggregate the data based on types,
+ * categories, and sizes.
  */
 const useFilteredData = (
-  rawData: Array<PerfumeGroup>,
+  rawData: Array<PerfumeGroup> | null,
   selectedTypes: Array<string>,
   selectedCategories: Array<string>,
   selectedSize: Array<string>
 ): Array<DisplayItem> => {
   return useMemo(() => {
-    if (rawData.length === 0) return [];
+    if (!rawData || rawData.length === 0) return [];
 
     const isTypeSelected = selectedTypes.length > 0;
     const isCategorySelected = selectedCategories.length > 0;
@@ -31,10 +33,7 @@ const useFilteredData = (
       })
       .reduce((acc, group) => {
         group.variants.forEach((variant) => {
-          if (
-            isSizeSelected &&
-            !selectedSize.includes(variant.perfumeSize)
-          ) {
+          if (isSizeSelected && !selectedSize.includes(variant.perfumeSize)) {
             return;
           }
 

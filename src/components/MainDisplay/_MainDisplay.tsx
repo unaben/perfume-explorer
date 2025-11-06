@@ -6,11 +6,11 @@ import type { PerfumeGroup } from "../../types";
 import { getOptions } from "../../utils/getOptions";
 import MultiSelectCheckbox from "../MultiSelectCheckbox/MultiSelectCheckbox";
 import PerfumeTableGrid from "../PerfumeTableGrid/PerfumeTableGrid";
-import styles from "./_MainDisplay.module.css";
 import Details from "../Details/Details";
+import styles from "./_MainDisplay.module.css";
 
 const Display = () => {
-  const { data: rawData } = useFetchApiData<PerfumeGroup>("/data.json");
+  const { data: rawData } = useFetchApiData<Array<PerfumeGroup>>("/data.json");
   const [toggleScreen, setToggleScreen] = useState<"display" | "details">(
     "display"
   );

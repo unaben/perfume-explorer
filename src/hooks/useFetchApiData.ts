@@ -1,14 +1,14 @@
 import { useEffect, useState } from "react";
 
 type ApiData<T> = {
-  data: Array<T>;
+  data: T | null;
   isLoading: boolean;
   error: string;
 };
 
 function useFetchApiData<T>(url: string) {
   const [apiData, setApiData] = useState<ApiData<T>>({
-    data: [],
+    data: null,
     isLoading: false,
     error: "",
   });
@@ -18,36 +18,29 @@ function useFetchApiData<T>(url: string) {
 
     try {
       const res = await fetch(fetchUrl);
-      if (res.ok) {
-        const resData: Array<T> = await res.json();
-        setApiData((prev) => ({
-          ...prev,
-          data: resData,
-          isLoading: false,
-        }));
-      } else {
+      if (!res.ok) {
         const errorText = `Failed to fetch: ${res.status} ${res.statusText}`;
-        setApiData((prev) => ({ 
-            ...prev, 
-            error: errorText, 
-            isLoading: false 
-        }));
-        console.error(errorText);
+        throw new Error(errorText);
       }
+
+      const resData: T = await res.json();
+      setApiData({
+        data: resData,
+        isLoading: false,
+        error: "",
+      });
     } catch (error) {
-      if (error instanceof Error) {
-        const apiError = error.message;
-        setApiData((prev) => ({ ...prev, error: apiError, isLoading: false }));
-        console.error(error);
-      } else {
-        setApiData((prev) => ({ 
-            ...prev, 
-            error: "An unknown error occurred", 
-            isLoading: false 
-        }));
-      }
+      const message =
+        error instanceof Error ? error.message : "An unknown error occurred";
+      setApiData({
+        data: null,
+        isLoading: false,
+        error: message,
+      });
+      console.error(error);
     }
   };
+
   useEffect(() => {
     fetchApiData(url);
     // eslint-disable-next-line react-hooks/exhaustive-deps

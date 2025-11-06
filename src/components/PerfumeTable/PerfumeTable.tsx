@@ -1,4 +1,3 @@
-// src/components/PerfumeTable/PerfumeTable.tsx
 import React from 'react';
 import styles from './PerfumeTable.module.css';
 import { formatFamilies } from '../../utils/formatFamilies';
