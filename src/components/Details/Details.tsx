@@ -5,7 +5,13 @@ import useFetchApiData from "../../hooks/useFetchApiData";
 
 const Details = (props: IDetailsProps) => {
   const { perfumeCode } = props;
-  const {data: perfumeImageMap} = useFetchApiData<PerfumeImage>("/images.json");
+
+   // Automatically detects environment
+   const API_URL = process.env.NODE_ENV === 'production'
+   ? 'https://perfumexplorer.bellefriends.com'
+   : '/api';
+
+  const {data: perfumeImageMap} = useFetchApiData<PerfumeImage>(`${API_URL}/images.json`);
 
   console.log({ perfumeCode });
   console.log({ perfumeImageMap });
